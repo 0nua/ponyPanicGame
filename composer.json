@@ -1,0 +1,24 @@
+{
+    "name": "ponypanic/ponypanic",
+    "description": "Client for ICF game",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vladimir Prisada",
+            "email": "vladimir.prisada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/console": "^6.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "PonyPanic\\": "src/"
+        }
+    }
+}
