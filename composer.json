@@ -15,10 +15,14 @@
         "vlucas/phpdotenv": "^5.5",
         "symfony/console": "^6.3"
     },
-
     "autoload": {
         "psr-4": {
             "PonyPanic\\": "src/"
         }
+    },
+    "scripts": {
+        "newStory": "php application.php play story",
+        "continueStory": "php application.php play story continue",
+        "freestyle": "php application.php play freestyle"
     }
 }
