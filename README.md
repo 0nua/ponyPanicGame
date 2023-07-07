@@ -14,3 +14,7 @@ Original console command `php application.php play`.
 Check arguments and options: `php application.php play -h`
 
 It is possible to play with a custom freestyle map. Map properties are passed as arguments (see -h for details)
+
+***Debugging***
+
+Use story token from ./data/game.txt file for joining to the map
